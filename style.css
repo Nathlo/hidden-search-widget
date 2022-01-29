@@ -44,3 +44,16 @@ body {
   font-size: 24px;
   transition: transform 0.3s ease;
 }
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active input {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+}
